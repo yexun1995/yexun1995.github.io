@@ -20,20 +20,20 @@
     var CONFIG = {"hostname":"yexun1995.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="安装NVM1https:&#x2F;&#x2F;github.com&#x2F;nvm-sh&#x2F;nvm&#x2F; 20200916: 12curl -o- https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;nvm-sh&#x2F;nvm&#x2F;v0.35.3&#x2F;install.sh | bashwget -qO- https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;nvm-sh&#x2F;nvm&#x2F;v0.35.3&#x2F;install.s">
+  <meta name="description" content="The biggest problem for many users.">
 <meta property="og:type" content="article">
-<meta property="og:title" content="利用 NVM 安装 nodejs 流程 For Ubuntu">
-<meta property="og:url" content="https://yexun1995.github.io/2020/09/15/nvm/index.html">
+<meta property="og:title" content="如何在 Ubuntu 19.10 上安装 NVIDIA 驱动">
+<meta property="og:url" content="https://yexun1995.github.io/2020/03/11/ubuntu-nvidia/index.html">
 <meta property="og:site_name" content="收纳箱">
-<meta property="og:description" content="安装NVM1https:&#x2F;&#x2F;github.com&#x2F;nvm-sh&#x2F;nvm&#x2F; 20200916: 12curl -o- https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;nvm-sh&#x2F;nvm&#x2F;v0.35.3&#x2F;install.sh | bashwget -qO- https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;nvm-sh&#x2F;nvm&#x2F;v0.35.3&#x2F;install.s">
+<meta property="og:description" content="The biggest problem for many users.">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2020-09-15T14:04:00.000Z">
-<meta property="article:modified_time" content="2020-04-01T10:56:01.364Z">
+<meta property="article:published_time" content="2020-03-11T06:07:57.000Z">
+<meta property="article:modified_time" content="2020-04-01T10:58:12.609Z">
 <meta property="article:author" content="Filo">
 <meta property="article:tag" content="Note">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://yexun1995.github.io/2020/09/15/nvm/">
+<link rel="canonical" href="https://yexun1995.github.io/2020/03/11/ubuntu-nvidia/">
 
 
 <script id="page-configurations">
@@ -46,7 +46,7 @@
   };
 </script>
 
-  <title>利用 NVM 安装 nodejs 流程 For Ubuntu | 收纳箱</title>
+  <title>如何在 Ubuntu 19.10 上安装 NVIDIA 驱动 | 收纳箱</title>
   
 
 
@@ -167,7 +167,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://yexun1995.github.io/2020/09/15/nvm/">
+    <link itemprop="mainEntityOfPage" href="https://yexun1995.github.io/2020/03/11/ubuntu-nvidia/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -180,7 +180,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          利用 NVM 安装 nodejs 流程 For Ubuntu
+          如何在 Ubuntu 19.10 上安装 NVIDIA 驱动
         </h1>
 
         <div class="post-meta">
@@ -190,14 +190,14 @@
               </span>
               <span class="post-meta-item-text">发表于</span>
 
-              <time title="创建时间：2020-09-15 22:04:00" itemprop="dateCreated datePublished" datetime="2020-09-15T22:04:00+08:00">2020-09-15</time>
+              <time title="创建时间：2020-03-11 14:07:57" itemprop="dateCreated datePublished" datetime="2020-03-11T14:07:57+08:00">2020-03-11</time>
             </span>
               <span class="post-meta-item">
                 <span class="post-meta-item-icon">
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-04-01 18:56:01" itemprop="dateModified" datetime="2020-04-01T18:56:01+08:00">2020-04-01</time>
+                <time title="修改时间：2020-04-01 18:58:12" itemprop="dateModified" datetime="2020-04-01T18:58:12+08:00">2020-04-01</time>
               </span>
 
           
@@ -211,14 +211,24 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h1 id="安装NVM"><a href="#安装NVM" class="headerlink" title="安装NVM"></a>安装NVM</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://github.com/nvm-sh/nvm/</span><br></pre></td></tr></table></figure>
-<p>20200916:</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash</span><br><span class="line">wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash</span><br></pre></td></tr></table></figure>
-<p>重启终端。</p>
-<h1 id="NVM更换国内源"><a href="#NVM更换国内源" class="headerlink" title="NVM更换国内源"></a>NVM更换国内源</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">export</span> NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node</span><br></pre></td></tr></table></figure>
+        <p>The biggest problem for many users.</p>
+<a id="more"></a>
+<h1 id="禁用Nouveau开源驱动"><a href="#禁用Nouveau开源驱动" class="headerlink" title="禁用Nouveau开源驱动"></a>禁用Nouveau开源驱动</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo gedit /etc/modprobe.d/blacklist.conf</span><br></pre></td></tr></table></figure>
 
-<h1 id="安装Node"><a href="#安装Node" class="headerlink" title="安装Node"></a>安装Node</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm install node</span><br></pre></td></tr></table></figure>
-<h1 id="NPM切换国内源"><a href="#NPM切换国内源" class="headerlink" title="NPM切换国内源"></a>NPM切换国内源</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config <span class="built_in">set</span> registry https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
+<p>文尾添加 blacklist nouveau 保存退出</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo update-initramfs -u</span><br></pre></td></tr></table></figure>
+
+<p>重启电脑</p>
+<h1 id="清理原nvidia驱动"><a href="#清理原nvidia驱动" class="headerlink" title="清理原nvidia驱动"></a>清理原nvidia驱动</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt autoremove --purge nvidia*</span><br></pre></td></tr></table></figure>
+<h1 id="下载Nvidia-Driver"><a href="#下载Nvidia-Driver" class="headerlink" title="下载Nvidia Driver"></a>下载Nvidia Driver</h1><h1 id="停止gdm"><a href="#停止gdm" class="headerlink" title="停止gdm"></a>停止gdm</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo service gdm stop</span><br></pre></td></tr></table></figure>
+
+<h1 id="安装驱动"><a href="#安装驱动" class="headerlink" title="安装驱动"></a>安装驱动</h1><h2 id="安装依赖环境（一般不需要）"><a href="#安装依赖环境（一般不需要）" class="headerlink" title="安装依赖环境（一般不需要）"></a>安装依赖环境（一般不需要）</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install gcc make</span><br></pre></td></tr></table></figure>
+
+<p>ctrl+alt+f3进入虚拟控制台，登陆后</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo ./NVIDIA-Linux-x86_64-XXX.XX.run</span><br><span class="line">reboot</span><br></pre></td></tr></table></figure>
+
+<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><p><a target="_blank" rel="noopener" href="https://kelvin.mbioq.com/mip/how-to-install-nvidia-driver-on-ubuntu-1910.html">https://kelvin.mbioq.com/mip/how-to-install-nvidia-driver-on-ubuntu-1910.html</a></p>
+
     </div>
 
     
@@ -236,12 +246,12 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2020/09/15/hello-world/" rel="prev" title="Hello World">
-      <i class="fa fa-chevron-left"></i> Hello World
+    <a href="/2020/03/11/rapt/" rel="prev" title="Ren'Py 安卓打包解决 jvm 不足问题">
+      <i class="fa fa-chevron-left"></i> Ren'Py 安卓打包解决 jvm 不足问题
     </a></div>
       <div class="post-nav-item">
-    <a href="/2020/09/15/nodejs/" rel="next" title="Node.js 安装流程 For Ubuntu">
-      Node.js 安装流程 For Ubuntu <i class="fa fa-chevron-right"></i>
+    <a href="/2020/04/01/Neon-GPG/" rel="next" title="KDE Neon 解决 GPG 签名失败的问题">
+      KDE Neon 解决 GPG 签名失败的问题 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -301,7 +311,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AE%89%E8%A3%85NVM"><span class="nav-number">1.</span> <span class="nav-text">安装NVM</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#NVM%E6%9B%B4%E6%8D%A2%E5%9B%BD%E5%86%85%E6%BA%90"><span class="nav-number">2.</span> <span class="nav-text">NVM更换国内源</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AE%89%E8%A3%85Node"><span class="nav-number">3.</span> <span class="nav-text">安装Node</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#NPM%E5%88%87%E6%8D%A2%E5%9B%BD%E5%86%85%E6%BA%90"><span class="nav-number">4.</span> <span class="nav-text">NPM切换国内源</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%A6%81%E7%94%A8Nouveau%E5%BC%80%E6%BA%90%E9%A9%B1%E5%8A%A8"><span class="nav-number">1.</span> <span class="nav-text">禁用Nouveau开源驱动</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%B8%85%E7%90%86%E5%8E%9Fnvidia%E9%A9%B1%E5%8A%A8"><span class="nav-number">2.</span> <span class="nav-text">清理原nvidia驱动</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BDNvidia-Driver"><span class="nav-number">3.</span> <span class="nav-text">下载Nvidia Driver</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%81%9C%E6%AD%A2gdm"><span class="nav-number">4.</span> <span class="nav-text">停止gdm</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E9%A9%B1%E5%8A%A8"><span class="nav-number">5.</span> <span class="nav-text">安装驱动</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E4%BE%9D%E8%B5%96%E7%8E%AF%E5%A2%83%EF%BC%88%E4%B8%80%E8%88%AC%E4%B8%8D%E9%9C%80%E8%A6%81%EF%BC%89"><span class="nav-number">5.1.</span> <span class="nav-text">安装依赖环境（一般不需要）</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8F%82%E8%80%83"><span class="nav-number">6.</span> <span class="nav-text">参考</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
