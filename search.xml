@@ -108,4 +108,27 @@
 <p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment<i class="fa-solid fa-up-right-from-square"></i></a></p>
 ]]></content>
   </entry>
+  <entry>
+    <title>小狼毫配置</title>
+    <url>/2023/01/15/weasel/</url>
+    <content><![CDATA[<p>近日发现中州韵输入引擎十分优雅，虽然不够智能，但确实使用起来有一定的趣味。尝试过自己整合词库，但发现体验效果不太好，最近换成了其他人的整合方案，感觉比较舒服了。<br>中州韵是一套开源输入引擎，可以基于用户自己的自定义（配方）实现不同的输入体验。基于该引擎，在各平台都有特定的输入法，比如windows平台的小狼毫，macOS平台的鼠鬚管，Linux平台的ibus-rime等。<br>项目官网地址：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">https://rime.im/</span><br></pre></td></tr></table></figure></div>
+<h2 id="1-下载。"><a href="#1-下载。" class="headerlink" title="1.下载。"></a>1.下载。</h2><p>由于在写本文时，官方版本已经很久没更新了，推荐使用这个第三方版本。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">https://github.com/fxliang/weasel/releases</span><br></pre></td></tr></table></figure></div>
+<p>特点：圆角输入框外观，比起原版更接近鼠鬚管，修复了某些问题。<br>安装过程中可以指定用户数据目录。这里稍后用来放配方。</p>
+<h2 id="2-配方安装及定制"><a href="#2-配方安装及定制" class="headerlink" title="2.配方安装及定制"></a>2.配方安装及定制</h2><p>最近使用的是一个叫作雾凇拼音的方案。内置的词库比较符合我常用的输入习惯。<br>方案下载地址：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">https://github.com/iDvel/rime-ice</span><br></pre></td></tr></table></figure></div>
+<p>直接将整个仓库的内容下载，然后 备份小狼毫原配置目录，删除所有文件，然后将这个仓库的文件全都放进去，鼠标右键点击输入法图标，重新部署。稍等一下，雾凇拼音就可以使用了。<br>默认的配置文件需要一定的定制比较合适。</p>
+<p>installtion.yaml 文件，主要用于指定配置文件的目录，为了方便实现备份，可以修改以下部分（如没有，可以添加）</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">installation_id: <span class="string">&quot;Windows-Rime-Name&quot;</span></span><br><span class="line">sync_dir: /home/user/Nutstore Files/Rimeuser/sync</span><br></pre></td></tr></table></figure></div>
+<p>installation_id 可以根据需要自定义，主要用于备份个人词库。<br>sync_dir 是选择同步功能时，rime会备份用户词库和配方文件的目录。可用于配合跨平台的文件同步工具（如坚果云），实现词库同步，比如，我的windows使用的备份目录参数是这样的：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">sync_dir: <span class="string">&quot;D:\\Rimeuser\\sync&quot;</span></span><br></pre></td></tr></table></figure></div>
+<p>使用同步软件同步sync目录，今后，使用rime的同步功能时，会根据输入方案名称，将其他平台的用户词与当前平台合并，然后导出当前的用户词。需要保证平台之间的配方名是一样的，这样才能达到预期效果。<br>目录可以自定义，linux可以参考我的目录。<br>default.custom.yaml 文件，用于修改默认设置。输入法的很多功能都可以在这里自定义。雾凇拼音默认的方案选单配置，我习惯改成这样：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 方案选单相关</span></span><br><span class="line">switcher:</span><br><span class="line">  caption: 「方案选单」</span><br><span class="line">  hotkeys:</span><br><span class="line">    - F4</span><br><span class="line">    <span class="comment"># - Control+grave</span></span><br><span class="line">    <span class="comment"># - Alt+grave</span></span><br><span class="line">    <span class="comment"># - Control+Shift+grave</span></span><br></pre></td></tr></table></figure></div>
+<p>之后，按F4即可切换配方。设置多个配方时，可以方便切换。<br>大致就这样。</p>
+]]></content>
+      <tags>
+        <tag>实用教程</tag>
+      </tags>
+  </entry>
 </search>

@@ -9,7 +9,7 @@
     
     <title>
         
-            标签: 实用教程 |
+            小狼毫配置 |
         
         ToyBox
     </title>
@@ -181,63 +181,143 @@
 
                 
                     <div class="fade-in-down-animation">
-    <div class="tag-container">
-        <div class="tag-name"><i class="fa-solid fa-tag"></i>&nbsp;实用教程
-        </div>
-        <div class="tag-post-list">
-            
-<div class="archive-list-container">
-    
-        <section class="archive-item">
-            <div class="archive-item-header">
-                <span class="archive-year">2023</span>
-                <span class="archive-year-post-count">[4]</span>
+    <div class="post-page-container">
+        <div class="article-content-container">
+            <div class="article-title">
+                <span class="title-hover-animation"><h1 style="font-size:2rem; font-weight: bold; margin: 10px 0;">小狼毫配置</h1></span>
             </div>
-            <ul class="article-list">
+
+            
+                <div class="article-header">
+                    <div class="avatar">
+                        <img src="/images/avatar.svg">
+                    </div>
+                    <div class="info">
+                        <div class="author">
+                            <span class="name">Filo</span>
+                            
+                                <span class="author-label">lol</span>
+                            
+                        </div>
+                        <div class="meta-info">
+                            <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
+        <span class="pc">2023-01-15 17:21:22</span>
+        <span class="mobile">2023-01-15 17:21</span>
+    </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fa-regular fa-tags"></i>&nbsp;
+            <ul>
                 
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2023/01/15/weasel/"
-                        >小狼毫配置</a>
-                        <span class="article-date">01-15</span>
-                    </li>
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2023/01/01/SSH/"
-                        >SSH 配置流程 For Ubuntu</a>
-                        <span class="article-date">01-01</span>
-                    </li>
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2023/01/01/GPG/"
-                        >GPG 配置流程 For Ubuntu</a>
-                        <span class="article-date">01-01</span>
-                    </li>
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2023/01/01/GIT/"
-                        >Git 配置流程及常用命令 For Ubuntu</a>
-                        <span class="article-date">01-01</span>
+                    <li>
+                        <a href="/tags/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/">实用教程</a>&nbsp;
                     </li>
                 
             </ul>
-        </section>
+        </span>
+    
+
+    
+    
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fa-regular fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
     
 </div>
 
+                        </div>
+                    </div>
+                </div>
+            
+
+            <div class="article-content markdown-body">
+                <p>近日发现中州韵输入引擎十分优雅，虽然不够智能，但确实使用起来有一定的趣味。尝试过自己整合词库，但发现体验效果不太好，最近换成了其他人的整合方案，感觉比较舒服了。<br>中州韵是一套开源输入引擎，可以基于用户自己的自定义（配方）实现不同的输入体验。基于该引擎，在各平台都有特定的输入法，比如windows平台的小狼毫，macOS平台的鼠鬚管，Linux平台的ibus-rime等。<br>项目官网地址：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://rime.im/</span><br></pre></td></tr></table></figure></div>
+<h2 id="1-下载。"><a href="#1-下载。" class="headerlink" title="1.下载。"></a>1.下载。</h2><p>由于在写本文时，官方版本已经很久没更新了，推荐使用这个第三方版本。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://github.com/fxliang/weasel/releases</span><br></pre></td></tr></table></figure></div>
+<p>特点：圆角输入框外观，比起原版更接近鼠鬚管，修复了某些问题。<br>安装过程中可以指定用户数据目录。这里稍后用来放配方。</p>
+<h2 id="2-配方安装及定制"><a href="#2-配方安装及定制" class="headerlink" title="2.配方安装及定制"></a>2.配方安装及定制</h2><p>最近使用的是一个叫作雾凇拼音的方案。内置的词库比较符合我常用的输入习惯。<br>方案下载地址：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://github.com/iDvel/rime-ice</span><br></pre></td></tr></table></figure></div>
+<p>直接将整个仓库的内容下载，然后 备份小狼毫原配置目录，删除所有文件，然后将这个仓库的文件全都放进去，鼠标右键点击输入法图标，重新部署。稍等一下，雾凇拼音就可以使用了。<br>默认的配置文件需要一定的定制比较合适。</p>
+<p>installtion.yaml 文件，主要用于指定配置文件的目录，为了方便实现备份，可以修改以下部分（如没有，可以添加）</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">installation_id: <span class="string">&quot;Windows-Rime-Name&quot;</span></span><br><span class="line">sync_dir: /home/user/Nutstore Files/Rimeuser/sync</span><br></pre></td></tr></table></figure></div>
+<p>installation_id 可以根据需要自定义，主要用于备份个人词库。<br>sync_dir 是选择同步功能时，rime会备份用户词库和配方文件的目录。可用于配合跨平台的文件同步工具（如坚果云），实现词库同步，比如，我的windows使用的备份目录参数是这样的：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sync_dir: <span class="string">&quot;D:\\Rimeuser\\sync&quot;</span></span><br></pre></td></tr></table></figure></div>
+<p>使用同步软件同步sync目录，今后，使用rime的同步功能时，会根据输入方案名称，将其他平台的用户词与当前平台合并，然后导出当前的用户词。需要保证平台之间的配方名是一样的，这样才能达到预期效果。<br>目录可以自定义，linux可以参考我的目录。<br>default.custom.yaml 文件，用于修改默认设置。输入法的很多功能都可以在这里自定义。雾凇拼音默认的方案选单配置，我习惯改成这样：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 方案选单相关</span></span><br><span class="line">switcher:</span><br><span class="line">  caption: 「方案选单」</span><br><span class="line">  hotkeys:</span><br><span class="line">    - F4</span><br><span class="line">    <span class="comment"># - Control+grave</span></span><br><span class="line">    <span class="comment"># - Alt+grave</span></span><br><span class="line">    <span class="comment"># - Control+Shift+grave</span></span><br></pre></td></tr></table></figure></div>
+<p>之后，按F4即可切换配方。设置多个配方时，可以方便切换。<br>大致就这样。</p>
+
+            </div>
+
+            
+                <div class="post-copyright-info">
+                    <div class="article-copyright-info-container">
+    <ul>
+        <li>本文标题：小狼毫配置</li>
+        <li>本文作者：Filo</li>
+        <li>创建时间：2023-01-15 17:21:22</li>
+        <li>
+            本文链接：http://yexun1995.github.io/2023/01/15/weasel/
+        </li>
+        <li>
+            版权声明：本博客所有文章除特别声明外，均采用 <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> 许可协议。转载请注明出处！
+        </li>
+    </ul>
+</div>
+
+                </div>
+            
+
+            
+                <ul class="post-tags-box">
+                    
+                        <li class="tag-item">
+                            <a href="/tags/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/">#实用教程</a>&nbsp;
+                        </li>
+                    
+                </ul>
+            
+
+            
+                <div class="article-nav">
+                    
+                    
+                        <div class="article-next">
+                            <a class="next"
+                            rel="next"
+                            href="/2023/01/01/Rebuild/"
+                            >
+                                <span class="title flex-center">
+                                    <span class="post-nav-title-item">重置</span>
+                                    <span class="post-nav-item">下一篇</span>
+                                </span>
+                                <span class="right arrow-icon flex-center">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </span>
+                            </a>
+                        </div>
+                    
+                </div>
+            
+
+            
         </div>
+
+        
+            <div class="toc-content-container">
+                <div class="post-toc-wrap">
+    <div class="post-toc">
+        <div style="font-size: 1.3rem;margin-top: 0; margin-bottom: 0.8rem; transition-duration: 0.1s;"><i class="fa-solid fa-list"></i> <strong>目录</strong></div>
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-%E4%B8%8B%E8%BD%BD%E3%80%82"><span class="nav-text">1.下载。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E9%85%8D%E6%96%B9%E5%AE%89%E8%A3%85%E5%8F%8A%E5%AE%9A%E5%88%B6"><span class="nav-text">2.配方安装及定制</span></a></li></ol>
     </div>
-
-    <div class="tag-paginator">
-        <div class="paginator">
-    
-
-    
 </div>
-
+            </div>
+        
     </div>
 </div>
 
@@ -309,6 +389,23 @@
         </div>
     </div>
 
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="tools-item page-aside-toggle">
+                <i class="fa-regular fa-outdent"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+    </ul>
+</div>
+
+        </div>
     
 
     <div class="right-bottom-side-tools">
@@ -437,6 +534,14 @@
 
 
 <div class="post-scripts pjax">
+    
+        
+<script src="/js/toc-toggle.js"></script>
+
+<script src="/js/libs/anime.min.js"></script>
+
+<script src="/js/toc.js"></script>
+
     
 </div>
 
