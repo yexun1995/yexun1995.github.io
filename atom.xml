@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>
+    <name>Filo</name>
+  </author>
+  <generator uri="https://hexo.io/">Hexo</generator>
+  <id>http://yexun1995.github.io/</id>
+  <link href="http://yexun1995.github.io/" rel="alternate"/>
+  <link href="http://yexun1995.github.io/atom.xml" rel="self"/>
+  <rights>All rights reserved 2026, Filo</rights>
+  <subtitle>偶尔记录一些有用的内容</subtitle>
+  <title>ToyBox</title>
+  <updated>2023-01-01T06:36:09.000Z</updated>
+  <entry>
+    <author>
+      <name>Filo</name>
+    </author>
+    <content>
+      <![CDATA[<p>Welcome to <a class="link" href="https://hexo.io/">Hexo<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>! This is your very first post. Check <a class="link" href="https://hexo.io/docs/">documentation<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link" href="https://hexo.io/docs/troubleshooting.html">troubleshooting<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> or you can ask me on <a class="link" href="https://github.com/hexojs/hexo/issues">GitHub<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure></div><p>More info: <a class="link" href="https://hexo.io/docs/writing.html">Writing<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure></div><p>More info: <a class="link" href="https://hexo.io/docs/server.html">Server<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></tbody></table></figure></div><p>More info: <a class="link" href="https://hexo.io/docs/generating.html">Generating<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure></div><p>More info: <a class="link" href="https://hexo.io/docs/one-command-deployment.html">Deployment<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>]]>
+    </content>
+    <id>http://yexun1995.github.io/2026/10/05/hello-world/</id>
+    <link href="http://yexun1995.github.io/2026/10/05/hello-world/"/>
+    <published>2026-10-05T11:45:52.390Z</published>
+    <summary>
+      <![CDATA[<p>Welcome to <a class="link" href="https://hexo.io/">Hexo<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.]]>
+    </summary>
+    <title>Hello World</title>
+    <updated>2023-01-01T06:36:09.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Filo</name>
+    </author>
+    <category term="实用教程" scheme="http://yexun1995.github.io/tags/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    <content>
+      <![CDATA[<p>近日发现中州韵输入引擎十分优雅，虽然不够智能，但确实使用起来有一定的趣味。尝试过自己整合词库，但发现体验效果不太好，最近换成了其他人的整合方案，感觉比较舒服了。<br>中州韵是一套开源输入引擎，可以基于用户自己的自定义（配方）实现不同的输入体验。基于该引擎，在各平台都有特定的输入法，比如windows平台的小狼毫，macOS平台的鼠鬚管，Linux平台的ibus-rime等。<br>项目官网地址：</p><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://rime.im/</span><br></pre></td></tr></tbody></table></figure></div><h2 id="1-下载。"><a href="#1-下载。" class="headerlink" title="1.下载。"></a>1.下载。</h2><p>由于在写本文时，官方版本已经很久没更新了，推荐使用这个第三方版本。</p><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://github.com/fxliang/weasel/releases</span><br></pre></td></tr></tbody></table></figure></div><p>特点：圆角输入框外观，比起原版更接近鼠鬚管，修复了某些问题。<br>安装过程中可以指定用户数据目录。这里稍后用来放配方。</p><h2 id="2-配方安装及定制"><a href="#2-配方安装及定制" class="headerlink" title="2.配方安装及定制"></a>2.配方安装及定制</h2><p>最近使用的是一个叫作雾凇拼音的方案。内置的词库比较符合我常用的输入习惯。<br>方案下载地址：</p><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://github.com/iDvel/rime-ice</span><br></pre></td></tr></tbody></table></figure></div><p>直接将整个仓库的内容下载，然后 备份小狼毫原配置目录，删除所有文件，然后将这个仓库的文件全都放进去，鼠标右键点击输入法图标，重新部署。稍等一下，雾凇拼音就可以使用了。<br>默认的配置文件需要一定的定制比较合适。</p><p>installtion.yaml 文件，主要用于指定配置文件的目录，为了方便实现备份，可以修改以下部分（如没有，可以添加）</p><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">installation_id: <span class="string">"Windows-Rime-Name"</span></span><br><span class="line">sync_dir: /home/user/Nutstore Files/Rimeuser/sync</span><br></pre></td></tr></tbody></table></figure></div><p>installation_id 可以根据需要自定义，主要用于备份个人词库。<br>sync_dir 是选择同步功能时，rime会备份用户词库和配方文件的目录。可用于配合跨平台的文件同步工具（如坚果云），实现词库同步，比如，我的windows使用的备份目录参数是这样的：</p><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sync_dir: <span class="string">"D:\\Rimeuser\\sync"</span></span><br></pre></td></tr></tbody></table></figure></div><p>使用同步软件同步sync目录，今后，使用rime的同步功能时，会根据输入方案名称，将其他平台的用户词与当前平台合并，然后导出当前的用户词。需要保证平台之间的配方名是一样的，这样才能达到预期效果。<br>目录可以自定义，linux可以参考我的目录。<br>default.custom.yaml 文件，用于修改默认设置。输入法的很多功能都可以在这里自定义。雾凇拼音默认的方案选单配置，我习惯改成这样：</p><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 方案选单相关</span></span><br><span class="line">switcher:</span><br><span class="line">  caption: 「方案选单」</span><br><span class="line">  hotkeys:</span><br><span class="line">    - F4</span><br><span class="line">    <span class="comment"># - Control+grave</span></span><br><span class="line">    <span class="comment"># - Alt+grave</span></span><br><span class="line">    <span class="comment"># - Control+Shift+grave</span></span><br></pre></td></tr></tbody></table></figure></div><p>之后，按F4即可切换配方。设置多个配方时，可以方便切换。<br>大致就这样。</p>]]>
+    </content>
+    <id>http://yexun1995.github.io/2023/01/15/weasel/</id>
+    <link href="http://yexun1995.github.io/2023/01/15/weasel/"/>
+    <published>2023-01-15T09:21:22.000Z</published>
+    <summary>
+      <![CDATA[<p>近日发现中州韵输入引擎十分优雅，虽然不够智能，但确实使用起来有一定的趣味。尝试过自己整合词库，但发现体验效果不太好，最近换成了其他人的整合方案，感觉比较舒服了。<br>中州韵是一套开源输入引擎，可以基于用户自己的自定义（配方）实现不同的输入体验。基于该引擎，在各平台都有特定]]>
+    </summary>
+    <title>小狼毫配置</title>
+    <updated>2023-01-15T10:09:33.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Filo</name>
+    </author>
+    <category term="个人" scheme="http://yexun1995.github.io/tags/%E4%B8%AA%E4%BA%BA/"/>
+    <content>
+      <![CDATA[<p>总之，之前的pages的源文件都不知道被我丢到哪里去了，而且NExt主题似乎也有很久没更新了。<br>换个主题，重新开始写。依旧是自用为主。</p><p>阳康后，咳嗽迟迟不好，没办法了，希望能快点好起来吧。</p>]]>
+    </content>
+    <id>http://yexun1995.github.io/2023/01/01/Rebuild/</id>
+    <link href="http://yexun1995.github.io/2023/01/01/Rebuild/"/>
+    <published>2023-01-01T07:18:50.000Z</published>
+    <summary>
+      <![CDATA[<p>总之，之前的pages的源文件都不知道被我丢到哪里去了，而且NExt主题似乎也有很久没更新了。<br>换个主题，重新开始写。依旧是自用为主。</p>
+<p>阳康后，咳嗽迟迟不好，没办法了，希望能快点好起来吧。</p>]]>
+    </summary>
+    <title>重置</title>
+    <updated>2023-01-01T07:21:50.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Filo</name>
+    </author>
+    <category term="实用教程" scheme="http://yexun1995.github.io/tags/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    <content>
+      <![CDATA[<h2 id="SSH密钥生成"><a href="#SSH密钥生成" class="headerlink" title="SSH密钥生成"></a>SSH密钥生成</h2><p>1.检查是否已有 SSH key</p><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">ls</span> -al ~/.ssh</span><br></pre></td></tr></tbody></table></figure></div><p>2、创建 SSH key</p><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -b 4096 -C <span class="string">"address@gmail.com"</span></span><br></pre></td></tr></tbody></table></figure></div><p>当提示 Enter passphrase 时，输入一个用于加密SSH Key的密码，之后根据提示再次输入密码以确认。</p><h2 id="添加-SSH-key-到-SSH-Agent"><a href="#添加-SSH-key-到-SSH-Agent" class="headerlink" title="添加 SSH key 到 SSH-Agent"></a>添加 SSH key 到 SSH-Agent</h2><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">eval</span> <span class="string">"<span class="subst">$(ssh-agent -s)</span>"</span></span><br><span class="line">$ ssh-add ~/.ssh/id_rsa</span><br></pre></td></tr></tbody></table></figure></div><p>如果重装系统，这里可以导入之前备份的SSH Key。</p><h2 id="添加-SSH-key-到-Github"><a href="#添加-SSH-key-到-Github" class="headerlink" title="添加 SSH key 到 Github"></a>添加 SSH key 到 Github</h2><p>a、拷贝 ~/.ssh/id_rsa.pub 文件的内容<br>b、登录github页面，添加SSH Key</p><h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></tbody></table></figure></div>]]>
+    </content>
+    <id>http://yexun1995.github.io/2023/01/01/SSH/</id>
+    <link href="http://yexun1995.github.io/2023/01/01/SSH/"/>
+    <published>2023-01-01T07:09:28.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="SSH密钥生成"><a href="#SSH密钥生成" class="headerlink" title="SSH密钥生成"></a>SSH密钥生成</h2><p>1.检查是否已有 SSH key</p>
+<div class="code-container" d]]>
+    </summary>
+    <title>SSH 配置流程 For Ubuntu</title>
+    <updated>2023-01-01T07:11:21.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Filo</name>
+    </author>
+    <category term="实用教程" scheme="http://yexun1995.github.io/tags/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    <content>
+      <![CDATA[<h2 id="GPG密钥生成"><a href="#GPG密钥生成" class="headerlink" title="GPG密钥生成"></a>GPG密钥生成</h2><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gpg --full-generate-key</span><br></pre></td></tr></tbody></table></figure></div><p>推荐 RSA and RSA 方案，Key Size 4096.<br>user ID information ：输入Github相关的信息<br>secure passphrase ：输入加密密钥<br>其余选项可以根据实际需求适当修改</p><p>列出密钥</p><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ gpg --list-secret-keys --keyid-format LONG</span><br></pre></td></tr></tbody></table></figure></div><p>之后显示类似下方代码，复制你的 GPG key ID。示例中是 3AA5C34371567BD2 。</p><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$ gpg --list-secret-keys --keyid-format LONG</span><br><span class="line">/home/<span class="variable">$USER</span>/.gnupg/secring.gpg </span><br><span class="line">------------------------------------</span><br><span class="line">sec   4096R/3AA5C34371567BD2 2019-06-10 [expires: 2019-09-10]</span><br><span class="line">uid                          Hubot </span><br><span class="line">ssb   4096R/42B317FD4BA89E7A 2019-06-10</span><br></pre></td></tr></tbody></table></figure></div><p>输入命令（参考实际情况修改Key部分）</p><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ gpg --armor --<span class="built_in">export</span> 3AA5C34371567BD2</span><br></pre></td></tr></tbody></table></figure></div><p>3.添加 GPG Key 到 Github<br>复制 GPG key, 以 —–BEGIN PGP PUBLIC KEY BLOCK—– 开头，以 —–END PGP PUBLIC KEY BLOCK—– 结尾,在Github网页版添加到指定区域。</p><p>4.设置Git</p><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.signingkey 3AA5C34371567BD2</span><br></pre></td></tr></tbody></table></figure></div><p>开启GPG签名</p><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config commit.gpgsign <span class="literal">true</span></span><br></pre></td></tr></tbody></table></figure></div><p>关闭GPG签名</p><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config commit.gpgsign <span class="literal">false</span></span><br></pre></td></tr></tbody></table></figure></div><p>让所有的本地仓库都使用GPG签名</p><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global commit.gpgsign <span class="literal">true</span></span><br></pre></td></tr></tbody></table></figure></div><h2 id="GPG密钥导出"><a href="#GPG密钥导出" class="headerlink" title="GPG密钥导出"></a>GPG密钥导出</h2><p>列出本地的所有 Key</p><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gpg --list-keys</span><br></pre></td></tr></tbody></table></figure></div><p>显示类似下方代码</p><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"> $ gpg --list-keys /home/<span class="variable">$USER</span>/.gnupg/pubring.gpg </span><br><span class="line"> ----------------------------------- </span><br><span class="line">pub   4096R/3AA5C34371567BD2 2019-06-10 [expires: 2019-09-10]</span><br><span class="line">uid                  Goren G (Git) &lt;gythialy.koo+git@gmail.com&gt; </span><br><span class="line">sub   4096R/42B317FD4BA89E7A 2019-06-10</span><br><span class="line">gpg --output gpgkey_pub.gpg --armor --<span class="built_in">export</span> 3AA5C34371567BD2</span><br><span class="line">gpg --output gpgkey_sec.gpg --armor --export-secret-key 3AA5C34371567BD2</span><br></pre></td></tr></tbody></table></figure></div><h2 id="GPG密钥导入"><a href="#GPG密钥导入" class="headerlink" title="GPG密钥导入"></a>GPG密钥导入</h2><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">gpg --import ~/gpgkey_pub.gpg</span><br><span class="line">gpg --allow-secret-key-import --import ~/gpgkey_sec.gpg</span><br></pre></td></tr></tbody></table></figure></div>]]>
+    </content>
+    <id>http://yexun1995.github.io/2023/01/01/GPG/</id>
+    <link href="http://yexun1995.github.io/2023/01/01/GPG/"/>
+    <published>2023-01-01T07:05:15.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="GPG密钥生成"><a href="#GPG密钥生成" class="headerlink" title="GPG密钥生成"></a>GPG密钥生成</h2><div class="code-container" data-rel="Bash"><figure c]]>
+    </summary>
+    <title>GPG 配置流程 For Ubuntu</title>
+    <updated>2023-01-01T07:08:47.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Filo</name>
+    </author>
+    <category term="实用教程" scheme="http://yexun1995.github.io/tags/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    <content>
+      <![CDATA[<p>Git身份设置</p><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">"John Smith"</span></span><br><span class="line">git config --global user.email <span class="string">"johnsmith@example.com"</span></span><br></pre></td></tr></tbody></table></figure></div><p>项目生成</p><p>1.项目Clone</p><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> 项目地址</span><br></pre></td></tr></tbody></table></figure></div><p>可以用 -b 指定master分支</p><p>2.添加原始项目地址</p><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add upstream 项目地址</span><br></pre></td></tr></tbody></table></figure></div><p>3.fetch原始项目：</p><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git fetch upstream</span><br></pre></td></tr></tbody></table></figure></div><p>4.切换到本地master分支：</p><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout master</span><br></pre></td></tr></tbody></table></figure></div><p>5.将upstream/master merge到 本地master分支：</p><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git merge upstream/master</span><br></pre></td></tr></tbody></table></figure></div><p>6.push到自己的github仓库：</p><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push origin master</span><br></pre></td></tr></tbody></table></figure></div><p>同步上游仓库 另一种方案</p><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git remote update upstream</span><br><span class="line"></span><br><span class="line">git rebase upstream/master</span><br></pre></td></tr></tbody></table></figure></div><p>此方案相对更简洁，很多人都推荐这么做。</p><p>git强制覆盖：</p><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git fetch --all</span><br><span class="line">git reset --hard origin/master</span><br><span class="line">git pull</span><br></pre></td></tr></tbody></table></figure></div><p>git强制覆盖本地命令（单条）：</p><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git fetch --all &amp;&amp; git reset --hard origin/master &amp;&amp; git pull</span><br></pre></td></tr></tbody></table></figure></div>]]>
+    </content>
+    <id>http://yexun1995.github.io/2023/01/01/GIT/</id>
+    <link href="http://yexun1995.github.io/2023/01/01/GIT/"/>
+    <published>2023-01-01T06:59:30.000Z</published>
+    <summary>
+      <![CDATA[<p>Git身份设置</p>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tbody><tr><td class="gutter"><pre><s]]>
+    </summary>
+    <title>Git 配置流程及常用命令 For Ubuntu</title>
+    <updated>2023-01-01T07:03:41.000Z</updated>
+  </entry>
+</feed>
