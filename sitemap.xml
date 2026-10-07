@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yexun1995.github.io/2026/10/05/HowToInstallOffice/</loc>
+    
+    <lastmod>2026-10-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://yexun1995.github.io/2023/01/15/weasel/</loc>
     
     <lastmod>2023-01-15</lastmod>
@@ -46,34 +55,25 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>http://yexun1995.github.io/2026/10/05/hello-world/</loc>
-    
-    <lastmod>2023-01-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>http://yexun1995.github.io/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>http://yexun1995.github.io/tags/%E4%B8%AA%E4%BA%BA/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <loc>http://yexun1995.github.io/tags/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://yexun1995.github.io/tags/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <loc>http://yexun1995.github.io/tags/%E4%B8%AA%E4%BA%BA/</loc>
+    <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

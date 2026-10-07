@@ -1,9 +1,9 @@
+http://yexun1995.github.io/2026/10/05/HowToInstallOffice/
 http://yexun1995.github.io/2023/01/15/weasel/
 http://yexun1995.github.io/2023/01/01/Rebuild/
 http://yexun1995.github.io/2023/01/01/SSH/
 http://yexun1995.github.io/2023/01/01/GPG/
 http://yexun1995.github.io/2023/01/01/GIT/
-http://yexun1995.github.io/2026/10/05/hello-world/
 http://yexun1995.github.io/
-http://yexun1995.github.io/tags/%E4%B8%AA%E4%BA%BA/
 http://yexun1995.github.io/tags/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/
+http://yexun1995.github.io/tags/%E4%B8%AA%E4%BA%BA/
