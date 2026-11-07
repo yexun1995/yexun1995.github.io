@@ -10,7 +10,24 @@
   <rights>All rights reserved 2026, Filo</rights>
   <subtitle>偶尔记录一些有用的内容</subtitle>
   <title>ToyBox</title>
-  <updated>2026-10-07T12:38:01.397Z</updated>
+  <updated>2026-11-07T01:12:04.874Z</updated>
+  <entry>
+    <author>
+      <name>Filo</name>
+    </author>
+    <category term="实用教程" scheme="http://yexun1995.github.io/tags/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    <content>
+      <![CDATA[<h2 id="安装游戏"><a href="#安装游戏" class="headerlink" title="安装游戏"></a>安装游戏</h2><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://store.steampowered.com/app/1973530/Limbus_Company/</span><br></pre></td></tr></tbody></table></figure></div><h2 id="汉化补丁"><a href="#汉化补丁" class="headerlink" title="汉化补丁"></a>汉化补丁</h2><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://www.zeroasso.top/</span><br></pre></td></tr></tbody></table></figure></div><h2 id="使用软链接，将数据缓存转移到D盘"><a href="#使用软链接，将数据缓存转移到D盘" class="headerlink" title="使用软链接，将数据缓存转移到D盘"></a>使用软链接，将数据缓存转移到D盘</h2><p>1、打开 C:\Users\用户名\AppData\LocalLow\Unity\ProjectMoon_LimbusCompany</p><p>2、将 ProjectMoon_LimbusCompany 目录移动到至你想要的文件夹或者盘内，移动后形如 “D:\ProjectMoon_LimbusCompany”</p><p>3、打开cmd，输入</p><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mklink /j C:\Users\用户名\AppData\LocalLow\Unity\ProjectMoon_LimbusCompany <span class="string">"D:\ProjectMoon_LimbusCompany"</span></span><br></pre></td></tr></tbody></table></figure></div><p>4、查阅cmd窗口信息</p><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">“C:\Users\用户名\AppData\LocalLow\Unity\ProjectMoon_LimbusCompany &lt;&lt;===&gt;&gt; D:\ProjectMoon_LimbusCompany”</span><br></pre></td></tr></tbody></table></figure></div><p>出现形如上述提示视为成功，以后所有文件将会默认更新至挪动后的文件内。</p>]]>
+    </content>
+    <id>http://yexun1995.github.io/2026/11/07/Limbus_Company_InstallGuide/</id>
+    <link href="http://yexun1995.github.io/2026/11/07/Limbus_Company_InstallGuide/"/>
+    <published>2026-11-07T01:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="安装游戏"><a href="#安装游戏" class="headerlink" title="安装游戏"></a>安装游戏</h2><div class="code-container" data-rel="Bash"><figure class="iseeu]]>
+    </summary>
+    <title>边狱公司安装方案（Windows）</title>
+    <updated>2026-11-07T01:12:04.874Z</updated>
+  </entry>
   <entry>
     <author>
       <name>Filo</name>
